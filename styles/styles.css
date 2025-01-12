@@ -1,75 +1,84 @@
 /* all font */
 .all-font {
     font-family: "Fira Sans", serif;
-    
+
 }
 
 /* shared styles */
-.bg-color{
+.bg-color {
     background-color: #C6E4D6;
 }
-.font{
+
+.font {
     color: #0E0E0E;
 }
 
-.bg-color-white{
+.bg-color-white {
     background-color: #FFFFFF;
 }
 
-.bg-color-grey{
+.bg-color-grey {
     background-color: #F1F1F3;
 }
 
-.section-description{
+.section-description {
     font-size: 16px;
     font-weight: regular;
     line-height: 24px;
-    color:#0E0E0E; 
+    color: #0E0E0E;
 }
 
-.section-title{
+.section-title {
     font-size: 40px;
     font-weight: bold;
     line-height: auto;
 }
 
 /* nav styles */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 160px;
+    padding: 60px 180px;
 }
-.nav-header{
+
+.nav-header {
     font-size: 32px;
     font-weight: bold;
     line-height: auto;
-    }
-
-.nav button{
-    width: 116px;
-    height: 80px;
-    border: 1px solid #006A50;
-    border-radius: 16px;
-    background-color: transparent;
-    font-size: 30px;
-    font-weight: 600px;
-    line-height: auto;
 }
 
-.nav a{
+
+nav button {
+    
+        width: 116px;
+        height: 52px;
+        border: 1px solid #006A50;
+        border-radius: 8px;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: auto:
+
+}
+
+.boss{
+    color: #09A15C;
+}
+
+.nav a {
     text-decoration: none;
     color: #006A50;
 }
 
 /* hero styles */
 
-.hero{
+.hero {
     padding: 0px 160px;
-   
+
 }
 
-.hero-container{
-    
+.hero-container {
+
     height: 560px;
     border-radius: 24px;
     display: flex;
@@ -77,21 +86,21 @@
     align-items: center;
 }
 
-.hero  p{
+.hero p {
     color: #0E0E0E;
     font-size: 24px;
     font-weight: medium;
     line-height: auto;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 56px;
     font-weight: bold;
     line-height: auto;
     width: 622px;
 }
 
-.hero a{
+.hero a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
@@ -99,7 +108,7 @@
     line-height: auto;
 }
 
-.hero  button{
+.hero button {
     border-radius: 8px;
     background-color: #006A50;
     padding: 17px 34px;
@@ -110,43 +119,44 @@
 
 /* vision styles  */
 
-.vision{
+.vision {
     padding: 0px 160px;
 }
 
-.vision>div>div>p{
+.vision>div>div>p {
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.vision-card-container{
+
+.vision-card-container {
     display: flex;
     justify-content: space-between;
-    gap: 24px; 
+    gap: 24px;
 }
 
-.vision-card1{
+.vision-card1 {
     border-radius: 16px;
     background-color: rgba(84, 144, 245, 0.2);
 }
 
-.vision-card2{
+.vision-card2 {
     border-radius: 16px;
     background-color: rgba(198, 228, 214, 1);
     /* box-shadow: 0px 4px 4px #0E0E0E; */
 }
 
-.vision-card3{
+.vision-card3 {
     border-radius: 16px;
     background-color: rgba(247, 235, 207, 1);
 }
 
 
-.vision-card-container img{ 
+.vision-card-container img {
     margin-top: 32px;
     margin-left: 32px;
 }
 
-.vision-card-container h6{
+.vision-card-container h6 {
     font-size: 20px;
     font-weight: bold;
     line-height: auto;
@@ -155,13 +165,14 @@
     margin-top: 24px;
 }
 
-.vision-card-container p{
+.vision-card-container p {
     margin-left: 32px;
     margin-top: 12px;
-    width: 400px;;
+    width: 400px;
+    ;
 }
 
-.vision button{
+.vision button {
     margin-left: 32px;
     margin-top: 24px;
     margin-bottom: 32px;
@@ -170,91 +181,99 @@
     border: none;
 }
 
-.vision a{
+.vision a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: semi-bold;
     line-height: auto;
 }
-.vision-card1 button{
+
+.vision-card1 button {
     background-color: #5490F5;
 }
-.vision-card2 button{
+
+.vision-card2 button {
     background-color: #09A15C;
 }
-.vision-card3 button{
+
+.vision-card3 button {
     background-color: #FFC239;
 }
-.yunus-section{
+
+.yunus-section {
     border-radius: 16px;
     padding: 48px 24px;
     margin-top: 32px;
 }
 
-.yunus-description{
+.yunus-description {
     font-size: 16px;
     font-weight: regular;
     line-height: 24px;
-    color:#0E0E0E;
+    color: #0E0E0E;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
 }
 
-.yunus-designation strong{
+.yunus-designation strong {
     font-size: 20px;
     font-weight: semi-bold;
     line-height: 24px;
     color: #0E0E0E;
 }
-.yunus-designation{
+
+.yunus-designation {
     font-size: 16px;
     font-weight: regular;
     line-height: 24px;
-    color:#0E0E0E;
+    color: #0E0E0E;
 }
 
 /* news styles */
-.news{
+.news {
     padding: 80px 160px;
 }
 
-.news-section p{
+.news-section p {
     margin-top: 24px;
     margin-bottom: 32px;
 }
 
-.news-card{
+.news-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
 }
 
-.news-card1, .news-card2{
+.news-card1,
+.news-card2 {
     padding: 48px;
     border-radius: 24px;
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
-.news-card1 img, .news-card2 img{
+
+.news-card1 img,
+.news-card2 img {
     border-radius: 24px;
 }
 
-.news-content h3{
+.news-content h3 {
     font-size: 32px;
     font-weight: bold;
     line-height: auto;
     color: #0E0E0E;
 }
 
-.news-content img{
+.news-content img {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.news-content span{
+.news-content span {
     margin-right: 12px;
     font-size: 16px;
     font-weight: regular;
@@ -262,7 +281,7 @@
     color: #0E0E0E;
 }
 
-.news-content button{
+.news-content button {
     padding: 13px 26px;
     border-radius: 8px;
     background-color: #006A50;
@@ -270,7 +289,7 @@
     margin-top: 32px;
 }
 
-.news-content a{
+.news-content a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
@@ -278,25 +297,27 @@
     line-height: auto;
 }
 
-.news-content button:hover{
+.news-content button:hover {
     background-color: grey;
 }
-.donate{
-    padding: 0px 160px  80px 160px;
+
+.donate {
+    padding: 0px 160px 80px 160px;
     text-align: center;
 }
 
-.donate  p{
+.donate p {
     margin-top: 24px;
     margin-bottom: 32px;
 }
 
-.donate-container{
+.donate-container {
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
 }
-.card-taka{
+
+.card-taka {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #0E0E0E;
@@ -308,11 +329,11 @@
     cursor: pointer;
 }
 
-.card-taka:hover{
+.card-taka:hover {
     background-color: #C6E4D6;
 }
 
-.donate input{
+.donate input {
     padding: 20px 40px;
     border: none;
     margin: 32px auto;
@@ -320,15 +341,15 @@
     text-align: center;
 }
 
-.donate input::placeholder{
-    color:#0E0E0E;
+.donate input::placeholder {
+    color: #0E0E0E;
     font-size: 20px;
     font-weight: regular;
     line-height: auto;
-   
+
 }
 
-.donate button{
+.donate button {
     padding: 17px 34px;
     border-radius: 8px;
     background-color: #006A50;
@@ -340,10 +361,11 @@
     cursor: pointer;
 }
 
-.donate button:hover{
+.donate button:hover {
     background-color: grey;
 }
-.subscribe{
+
+.subscribe {
     margin: 0px 160px 80px 160px;
     text-align: center;
     background-color: #C6E4D6;
@@ -351,15 +373,15 @@
     border-radius: 24px;
 }
 
-.subscribe h2{
+.subscribe h2 {
     margin-bottom: 16px;
 }
 
-.subscribe p{
+.subscribe p {
     margin-bottom: 24px;
 }
 
-.subscribe button{
+.subscribe button {
     padding: 17px 34px;
     border-radius: 0px 8px 8px 0px;
     background-color: #006A50;
@@ -371,11 +393,11 @@
     cursor: pointer;
 }
 
-.subscribe button:hover{
+.subscribe button:hover {
     background-color: grey;
 }
 
-.subscribe input{
+.subscribe input {
     margin-bottom: 24px;
     padding: 18px 40px;
     border: none;
